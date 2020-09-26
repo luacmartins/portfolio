@@ -7,7 +7,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "fs": "^0.0.1-security",
+    "gray-matter": "^4.0.2",
     "next": "latest",
+    "path": "^0.12.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
