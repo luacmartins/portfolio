@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render project list correctly 1`] = `
+<div
+  className="mt-6"
+>
+  <div
+    className="mb-6 sm:mb-8"
+  >
+    <div>
+      <div>
+        <header
+          className="font-semibold text-2xl leading-tight mt-2 sm:mt-0"
+        >
+          CM Photo
+        </header>
+        <p
+          className="mt-2 font-thin text-lg"
+        >
+          I designed and wrote the code for my online photography store. I used React's Next.js framework and TailwindCSS to stactically generate the front end. State is managed with React hooks and data with markdown files. Testing is done using Jest. Fulfillment and payment were integrated using Rest APIs.
+        </p>
+      </div>
+      <div
+        className="flex justify-start mt-2 py-2 sm:py-3"
+      >
+        <a
+          alt="live demo"
+          className="bg-blue-500 rounded px-2 py-1 text-white sm:w-32 sm:text-center hover:shadow hover:bg-blue-600"
+          href="website"
+          target="_blank"
+        >
+          Live demo
+        </a>
+        <a
+          alt="source code"
+          className="border border-blue-500 px-2 py-1 text-blue-500 rounded ml-4 sm:w-32 sm:text-center hover:shadow hover:text-blue-600 hover:border-blue-600"
+          href="github"
+          target="_blank"
+        >
+          Source code
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="mb-6 sm:mb-8"
+  >
+    <div>
+      <div>
+        <header
+          className="font-semibold text-2xl leading-tight mt-2 sm:mt-0"
+        >
+          Ourglobaltrek
+        </header>
+        <p
+          className="mt-2 font-thin text-lg"
+        >
+          A personal travel blog that details my adventures around the globe. It was originally launched with a custom wordpress theme and I later revamped the old theme. The front end is rendered with React and Sass and data is fetched using the Wordpress Rest API. This was my first React project.
+        </p>
+      </div>
+      <div
+        className="flex justify-start mt-2 py-2 sm:py-3"
+      >
+        <a
+          alt="live demo"
+          className="bg-blue-500 rounded px-2 py-1 text-white sm:w-32 sm:text-center hover:shadow hover:bg-blue-600"
+          href="http://www.ourglobaltrek.com"
+          target="_blank"
+        >
+          Live demo
+        </a>
+        <a
+          alt="source code"
+          className="border border-blue-500 px-2 py-1 text-blue-500 rounded ml-4 sm:w-32 sm:text-center hover:shadow hover:text-blue-600 hover:border-blue-600"
+          href="https://github.com/luacmartins/wp-theme-ultimate-expedition"
+          target="_blank"
+        >
+          Source code
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`should render regular list correctly 1`] = `
+<div
+  className="mt-6"
+>
+  <div
+    className="mb-6 sm:mb-8"
+  >
+    <div>
+      <span
+        className="font-semibold text-gray-700 text-sm"
+      >
+        Full-stack Developer
+      </span>
+      <header
+        className="font-semibold text-2xl leading-tight mt-2 sm:mt-0"
+      >
+        freeCodeCamp.org
+      </header>
+      <span
+        className="text-gray-600 font-hairline text-sm"
+      >
+        2020 - Present
+      </span>
+      <p
+        className="mt-2 font-thin text-lg"
+      />
+    </div>
+  </div>
+  <div
+    className="mb-6 sm:mb-8"
+  >
+    <div>
+      <span
+        className="font-semibold text-gray-700 text-sm"
+      >
+        Bachelor's in Mechanical Engineering
+      </span>
+      <header
+        className="font-semibold text-2xl leading-tight mt-2 sm:mt-0"
+      >
+        Universidade Federal de Santa Catarina
+      </header>
+      <span
+        className="text-gray-600 font-hairline text-sm"
+      >
+        2008 - 2013
+      </span>
+      <p
+        className="mt-2 font-thin text-lg"
+      />
+    </div>
+  </div>
+  <div
+    className="mb-6 sm:mb-8"
+  >
+    <div>
+      <span
+        className="font-semibold text-gray-700 text-sm"
+      >
+        Research Scholar
+      </span>
+      <header
+        className="font-semibold text-2xl leading-tight mt-2 sm:mt-0"
+      >
+        University of Pennsylvania
+      </header>
+      <span
+        className="text-gray-600 font-hairline text-sm"
+      >
+        2012 - 2013
+      </span>
+      <p
+        className="mt-2 font-thin text-lg"
+      />
+    </div>
+  </div>
+  <div
+    className="mb-6 sm:mb-8"
+  >
+    <div>
+      <span
+        className="font-semibold text-gray-700 text-sm"
+      >
+        Exchange Program
+      </span>
+      <header
+        className="font-semibold text-2xl leading-tight mt-2 sm:mt-0"
+      >
+        Swiss Federal Institute of Technology
+      </header>
+      <span
+        className="text-gray-600 font-hairline text-sm"
+      >
+        2011 - 2012
+      </span>
+      <p
+        className="mt-2 font-thin text-lg"
+      />
+    </div>
+  </div>
+</div>
+`;

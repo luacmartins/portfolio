@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render card correctly 1`] = `
+<div>
+  <span
+    className="font-semibold text-gray-700 text-sm"
+  >
+    CEO
+  </span>
+  <header
+    className="font-semibold text-2xl leading-tight mt-2 sm:mt-0"
+  >
+    Hadar Importação
+  </header>
+  <span
+    className="text-gray-600 font-hairline text-sm"
+  >
+    Feb 2012 - Aug 2019 (7y 6mo)
+  </span>
+  <p
+    className="mt-2 font-thin text-lg"
+  >
+    Hadar is an imports and exports company supplying the textile industry in Brazil. I joined the struggling company in 2011 and during my time as CEO, I was able to restructure all of its operations from product lines and suppliers to logistics and fulfillment partners. I also secured $300k in funding for the growing operations of the company. These changes led the company to an upswing, getting out of the red and reporting over $1.5m in revenue and 28% net profit in the first year. In the following years, I was responsible for bringing 420+ clients and adding 7 new product lines. I left the company in 2019 to pursue my passion in technology.
+  </p>
+</div>
+`;

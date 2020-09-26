@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render card correctly 1`] = `
+<div>
+  <div>
+    <header
+      className="font-semibold text-2xl leading-tight mt-2 sm:mt-0"
+    >
+      CM Photo
+    </header>
+    <p
+      className="mt-2 font-thin text-lg"
+    >
+      I designed and wrote the code for my online photography store. I used React's Next.js framework and TailwindCSS to stactically generate the front end. State is managed with React hooks and data with markdown files. Testing is done using Jest. Fulfillment and payment were integrated using Rest APIs.
+    </p>
+  </div>
+  <div
+    className="flex justify-start mt-2 py-2 sm:py-3"
+  >
+    <a
+      alt="live demo"
+      className="bg-blue-500 rounded px-2 py-1 text-white sm:w-32 sm:text-center hover:shadow hover:bg-blue-600"
+      href="website"
+      target="_blank"
+    >
+      Live demo
+    </a>
+    <a
+      alt="source code"
+      className="border border-blue-500 px-2 py-1 text-blue-500 rounded ml-4 sm:w-32 sm:text-center hover:shadow hover:text-blue-600 hover:border-blue-600"
+      href="github"
+      target="_blank"
+    >
+      Source code
+    </a>
+  </div>
+</div>
+`;

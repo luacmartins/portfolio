@@ -5,6 +5,6 @@ demo: 'website'
 demoAlt: 'live demo'
 code: 'github'
 codeAlt: 'source code'
-text: 'This personal blog details my adventures around the globe. I revamped the website creating a React Wordpress theme. The front end is rendered with React and Sass and data is fetched using the Wordpress REST API. It was my first React project.'
+text: "I designed and wrote the code for my online photography store. I used React's Next.js framework and TailwindCSS to stactically generate the front end. State is managed with React hooks and data with markdown files. Testing is done using Jest. Fulfillment and payment were integrated using Rest APIs."
 ---
 
