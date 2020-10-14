@@ -1,7 +1,7 @@
 ---
 title: 'Ourglobaltrek'
 date: '2020-02-09'
-demo: 'http://www.ourglobaltrek.com'
+demo: 'https://www.ourglobaltrek.com'
 demoAlt: 'live demo'
 code: 'https://github.com/luacmartins/wp-theme-ultimate-expedition'
 codeAlt: 'source code'
