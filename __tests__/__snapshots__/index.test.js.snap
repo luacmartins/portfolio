@@ -80,7 +80,7 @@ exports[`should render index page correctly 1`] = `
     <p
       className="font-thin text-lg"
     >
-      I'm a passionate software engineer using cutting edge technology to create real-world impact. I am currently looking for remote software engineer opportunities to help companies reach their goals. Previously, I was the CEO of an imports and exports company in Brazil where I restructued operations that led to multimillion dollar profits. I am also passionate about travelling and photography.
+      I'm a passionate software engineer using cutting edge technology to create real-world impact. I am currently looking for remote software engineer opportunities to help companies reach their goals. Previously, I was the CEO of an imports and exports company in Brazil where I restructued operations that led to multimillion dollar profits. I am also passionate about traveling and photography.
     </p>
     <section
       className="mt-16"
@@ -115,7 +115,7 @@ exports[`should render index page correctly 1`] = `
             <p
               className="mt-2 font-thin text-lg"
             >
-              Hadar is an imports and exports company supplying the textile industry in Brazil. I joined the struggling company in 2011 and during my time as CEO, I was able to restructure all of its operations from product lines and suppliers to logistics and fulfillment partners. I also secured $300k in funding for the growing operations of the company. These changes led the company to an upswing, getting out of the red and reporting over $1.5m in revenue and 28% net profit in the first year. In the following years, I was responsible for bringing 420+ clients and adding 7 new product lines. I left the company in 2019 to pursue my passion in technology.
+              Hadar is an imports and exports company supplying the textile industry in Brazil. I joined the struggling company in 2011 and during my tenure as CEO, I restructured all of its operations from product lines and suppliers to logistics and fulfillment partners. I also secured R$300k in funding for the growing operations of the company. These changes led the company to an upswing, getting out of the red and reporting over R$1.5m in revenue and 28% net profit in the first year. In the following years, I was responsible for bringing 420+ clients and adding 7 new product lines. I left the company in 2019 to pursue my passion for technology.
             </p>
           </div>
         </div>

@@ -6,7 +6,7 @@
       "build": "next build",
       "start": "next start -p $PORT",
       "heroku-postbuild": "npm run build",
-      "test": "jest --watch "
+      "test": "jest --watch"
    },
    "dependencies": {
       "fs": "^0.0.1-security",
