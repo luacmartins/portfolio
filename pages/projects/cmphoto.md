@@ -1,10 +1,10 @@
 ---
-title: 'CM Photo'
+title: 'CM Photography'
 date: '2020-02-10'
 demo: 'https://luacmartins-photography.herokuapp.com/'
 demoAlt: 'live demo'
 code: 'https://github.com/luacmartins/cm-photography'
 codeAlt: 'source code'
-text: "I designed and wrote the code for my online photography store. I used React's Next.js framework and TailwindCSS to stactically generate the front end. State is managed with React hooks and data with markdown files. Testing is done using Jest. Fulfillment and payment were integrated using Rest APIs."
+text: "I designed and wrote the code for my online photography store. I used React's Next.js framework and TailwindCSS to stactically generate the front end. State is managed with React's Context API hooks and data with markdown files. Testing is done using Jest. I integrated the app with <a class='link' href='https://www.prodigi.com/print-api/?gclid=Cj0KCQiAtqL-BRC0ARIsAF4K3WHoUNlMuyKLFt9DTi31m41M6T_juJoEdNcBBaz1fw61KQmTnbmNxb0aAjU2EALw_wcB' target='__blank'>Prodigi's API</a> for fulfillment of the prins and canvases, <a class='link' href='https://stripe.com/docs' target='__blank'>Stripe's API</a> for payment processing and <a class='link' href='https://sendgrid.com/docs/for-developers/' target='__blank'>SendGrid API</a> for email confirmations."
 ---
 
