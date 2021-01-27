@@ -21,16 +21,16 @@ export default function IndexPage({ allProjectsData, bioData, allExperienceData,
             <div className="mt-12 sm:px-24 lg:px-0 lg:pt-16 lg:mt-0 lg:w-1/2 lg:ml-104 lg:pb-16">
                <p className="font-thin text-lg">{bioData.text}</p>
 
-               {/* Experience */}
-               <section className="mt-16">
-                  <header className="font-semibold text-3xl mt-6 border-b">Experience</header>
-                  <List data={allExperienceData} />
-               </section>
-
                {/* Projects */}
                <section className="mt-16">
                   <header className="font-semibold text-3xl mt-6 border-b">Projects</header>
                   <List data={allProjectsData} card='project' />
+               </section>
+
+               {/* Experience */}
+               <section className="mt-16">
+                  <header className="font-semibold text-3xl mt-6 border-b">Experience</header>
+                  <List data={allExperienceData} />
                </section>
 
                {/* Education */}
