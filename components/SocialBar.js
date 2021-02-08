@@ -7,10 +7,6 @@ const icons = [{
    type: 'linkedin',
    alt: 'linkedin icon',
    link: 'https://www.linkedin.com/in/luacmartins/'
-}, {
-   type: 'twitter',
-   alt: 'twitter icon',
-   link: 'https://twitter.com/luacmartins_'
 }]
 
 

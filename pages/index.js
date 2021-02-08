@@ -13,7 +13,7 @@ export default function IndexPage({ allProjectsData, bioData, allExperienceData,
          <div className="min-h-screen py-16 px-4 text-gray-800 lg:px-0 lg:py-0">
             <div className="flex items-center justify-center sm:px-24 lg:justify-start lg:pt-16 text-center flex-col lg:fixed lg:px-16 lg:w-104">
                <img className="rounded-full w-48 shadow-lg" src={bioData.profilePhoto} alt={bioData.profilePhotoAlt} />
-               <h2 className="mt-8 text-2xl leading-tight font-thin">{bioData.heading}</h2>
+               <h2 className="mt-8 text-2xl leading-tight font-thin whitespace-pre-line">{bioData.heading}</h2>
                <div className="mt-4">
                   <SocialBar />
                </div>
