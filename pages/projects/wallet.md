@@ -1,7 +1,7 @@
 ---
 title: 'Wallet'
 date: '2021-01-10'
-demo: 'https://lcmartins-wallet.netlify.app/'
+demo: 'https://wallet.lcmartins.com'
 demoAlt: 'live demo'
 code: 'https://github.com/luacmartins/wallet-client'
 codeAlt: 'Front end'

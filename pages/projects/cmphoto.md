@@ -1,7 +1,7 @@
 ---
 title: 'CM Photography'
 date: '2020-02-10'
-demo: 'https://luacmartins-photography.herokuapp.com/'
+demo: 'https://photography.lcmartins.com'
 demoAlt: 'live demo'
 code: 'https://github.com/luacmartins/cm-photography'
 codeAlt: 'Source code'
