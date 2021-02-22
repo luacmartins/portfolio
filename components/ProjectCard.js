@@ -1,17 +1,40 @@
 const ProjectCard = ({ data }) => {
-   return (
+  return (
+    <div>
       <div>
-         <div>
-            <header className="font-semibold text-2xl leading-tight mt-2 sm:mt-0">{data.title}</header>
-            <p className="mt-2 font-thin text-lg" dangerouslySetInnerHTML={{ __html: data.text }}></p>
-         </div>
-         <div className="flex justify-start mt-2 py-2 sm:py-3">
-            <a className="bg-blue-500 rounded px-2 py-1 text-white sm:w-32 sm:text-center hover:shadow hover:bg-blue-600" href={data.demo} alt={data.demoAlt} target="_blank">Live demo</a>
-            <a className="border border-blue-500 px-2 py-1 text-blue-500 rounded ml-4 sm:w-32 sm:text-center hover:shadow hover:text-blue-600 hover:border-blue-600" href={data.code} alt={data.codeAlt} target="_blank">{data.codeAlt}</a>
-            {data.serverCode && <a className="border border-blue-500 px-2 py-1 text-blue-500 rounded ml-4 sm:w-32 sm:text-center hover:shadow hover:text-blue-600 hover:border-blue-600" href={data.serverCode} alt={data.serverCodeAlt} target="_blank">{data.serverCodeAlt}</a>}
-         </div>
+        <header className='mt-2 text-2xl font-semibold leading-tight sm:mt-0'>{data.title}</header>
+        <p className='mt-2 text-lg font-thin' dangerouslySetInnerHTML={{ __html: data.text }}></p>
       </div>
-   );
+      <div className='flex justify-start py-2 mt-2 sm:py-3'>
+        <a
+          className='px-2 py-1 text-white bg-blue-500 rounded sm:w-32 sm:text-center hover:shadow hover:bg-blue-600'
+          href={data.demo}
+          alt={data.demoAlt}
+          target='_blank'
+        >
+          Live site
+        </a>
+        <a
+          className='px-2 py-1 ml-4 text-blue-500 border border-blue-500 rounded sm:w-32 sm:text-center hover:shadow hover:text-blue-600 hover:border-blue-600'
+          href={data.code}
+          alt={data.codeAlt}
+          target='_blank'
+        >
+          {data.codeAlt}
+        </a>
+        {data.serverCode && (
+          <a
+            className='px-2 py-1 ml-4 text-blue-500 border border-blue-500 rounded sm:w-32 sm:text-center hover:shadow hover:text-blue-600 hover:border-blue-600'
+            href={data.serverCode}
+            alt={data.serverCodeAlt}
+            target='_blank'
+          >
+            {data.serverCodeAlt}
+          </a>
+        )}
+      </div>
+    </div>
+  )
 }
 
-export default ProjectCard;
+export default ProjectCard
