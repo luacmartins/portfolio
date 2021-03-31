@@ -1,5 +1,5 @@
 ---
-title: 'our global trek'
+title: 'Our Global Trek'
 date: '2020-02-09'
 demo: 'https://www.ourglobaltrek.com'
 demoAlt: 'live demo'
